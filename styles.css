@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    flex-wrap: wrap; /* Wrap the buttons if the screen size is too small */
+}
+
+.cta-buttons button {
+    width: 16%;
+    padding: 10px;
+    background-color: #706e6d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.cta-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #34495e;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* List Styles */
+ul.program-list, ul.partnership-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.program-list li, ul.partnership-list li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+ul.program-list li:before, ul.partnership-list li:before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    display: inline-block; 
+    width: 15px;
+}
+
+strong {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Spacing for formal, neat appearance */
+.container h2, .container h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.container ul {
+    margin-bottom: 20px;
+}
+
+/* Image Container Styling */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Responsive Image Styling */
+.responsive-img {
+    width: 48%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Optional margin for spacing */
+}
+img {
+    max-width: 200%; /* Ensures the image is responsive */
+    height: 100%;    /* Keeps the aspect ratio */
+}
+
+
+
+
+/* Navigation Bar */
+nav {
+    background-color: #6d6d6d; 
+    padding: 15px 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+/* Navigation Links */
+nav a {
+    color: #111111; 
+    text-decoration: none;
+    margin: 0 20px; 
+    font-size: 1.2em;
+    font-weight: bold; 
+}
+
+
+/* Hover Effect */
+nav a:hover {
+    color: #ffffff; 
+    text-decoration: underline; 
+}
+
+* Basic styling for the contact box */
+.contact-box {
+    border: 2px solid #333; 
+    background-color: #f0f0f0; 
+    padding: 15px;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: left;
+}
+.contact-box p {
+    margin: 5px 0;
+}
